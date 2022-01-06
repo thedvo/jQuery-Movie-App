@@ -13,9 +13,10 @@ $("#submit").click(function(e){
     $('#table-body').append(appendEntry);
     $('form').trigger("reset");
 
+    // when the remove button is clicked on a movie, remove the row.
     $('.removeBtn').click(function(){
     $(this).parents('tr').remove();
-})
+    })
 })
 
 // function creates the table row with the inputted data
@@ -30,10 +31,3 @@ createMovieList = (entry) => {
         </tr>
     `;
 }
-
-// when the remove button is clicked on a movie
-$('.removeBtn').click(function(){
-    $(this).parents('tr').remove();
-    // selects the parent of the removeButton which is tr.
-})
-
