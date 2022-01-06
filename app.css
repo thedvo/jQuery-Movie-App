@@ -1,0 +1,40 @@
+* {
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 30px;
+}
+
+form {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+#movie-input {
+	font-size: 16px;
+}
+
+#ratings-input {
+	font-size: 16px;
+	width: 80px;
+}
+
+#submit {
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+table {
+	position: relative;
+	top: 80px;
+}
